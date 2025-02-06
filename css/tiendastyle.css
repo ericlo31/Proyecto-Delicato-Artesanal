@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.font-custom {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-green {
+    background: #014401;
+}
+
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.py-6  {
+background-color: #F8F9FA;
+}
+
+.bg-gray-custom {
+    background-color: #292929;
+}
+
+input[type=number]{
+    width: 80px;
+} 
+
+.main-header{
+    background-color: #CAF296;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-text-holder {
+    align-items: left;
+}
+
+.text-white-thin {
+    text-decoration: none;
+    color: #F8F9FA;
+    font-weight: 300;
+}
+
+.text-white-thin:hover {
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+    color: #00CB00;
+}
+
+.list-unstyled {
+    text-decoration: none;
+    color: #F8F9FA;
+    font-weight: 300;
+}
+
+.list-unstyled p {
+    font-weight: 400;
+}
+
+/* Button Green */
+
+.btn-custom-green {
+    color: #fff;
+    background-color: #52D148;
+    border-color: #52D148;
+}
+
+.btn-custom-green:hover {
+    color: #fff;
+    background-color: #26831E;
+    border-color: #26831E;
+}
+
+.btn-check:focus + .btn-, .btn-custom-green:focus {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-check:checked + .btn-custom-green, .btn-check:active + .btn-custom-green, .btn-custom-green:active, .btn-custom-green.active, .show > .btn-custom-green.dropdown-toggle {
+    color: #fff;
+    background-color: #146c43;
+    border-color: #13653f;
+}
+
+.btn-check:checked + .btn-custom-green:focus, .btn-check:active + .btn-custom-green:focus, .btn-:active:focus, .btn-custom-green.active:focus, .show > .btn-.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-:disabled, .btn-.disabled {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Button Grey */
+
+.btn-custom-grey{
+    color: #fff;
+    background-color: #292929;
+    border-color: #292929;
+}
+
+.btn-custom-grey:hover {
+    color: #fff;
+    background-color: #0D0D0D;
+    border-color: #0D0D0D;
+}
+
+.btn-check:focus + .btn-, .btn-custom-grey:focus {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-check:checked + .btn-custom-grey, .btn-check:active + .btn-custom-grey, .btn-custom-grey:active, .btn-custom-grey.active, .show > .btn-custom-grey.dropdown-toggle {
+    color: #fff;
+    background-color: #146c43;
+    border-color: #13653f;
+}   
+
+/* Card */
+
+.home-body-content .my_card {
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+
+.my_card:hover {
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition-duration: 0.4s;
+}
+
+.my_card h3 {
+    font-size: 1.2em;
+}
+
+/* El cambia-paginas */
+
+.pages {
+    position: absolute;
+    top: 1400px;
+    left: 25%;
+    margin-right: -50%;
+    margin-bottom: 10%;
+}
+
+.pages a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: large;
+    font-style: normal;
+    padding: 8px 16px;
+}
+
+.pages a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+  
+.next {
+    background-color: #014401;
+    color: white;
+}

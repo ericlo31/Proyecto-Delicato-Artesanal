@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.font-custom {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-green {
+    background: #014401;
+}
+
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent !important;
+}
+
+.py-6 {
+    background-color: #F8F9FA;
+}
+
+.bg-gray-custom {
+    background-color: #292929;
+}
+
+.main-header {
+    background-color: #CAF296;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../images/rubia.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.slide h1{
+    font-size: 70px;
+}
+
+.text-white-thin {
+    text-decoration: none;
+    color: #F8F9FA;
+    font-weight: 300;
+}
+
+.text-white-thin:hover {
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+    color: #00CB00;
+}
+
+.list-unstyled {
+    text-decoration: none;
+    color: #F8F9FA;
+    font-weight: 300;
+}
+
+.list-unstyled p {
+    font-weight: 400;
+}
+
+.btn-custom-green {
+    color: #fff;
+    background-color: #52D148;
+    border-color: #52D148;
+}
+
+.btn-custom-green:hover {
+    color: #fff;
+    background-color: #26831E;
+    border-color: #26831E;
+}
+
+.btn-check:focus+.btn-,
+.btn-custom-green:focus {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-check:checked+.btn-custom-green,
+.btn-check:active+.btn-custom-green,
+.btn-custom-green:active,
+.btn-custom-green.active,
+.show>.btn-custom-green.dropdown-toggle {
+    color: #fff;
+    background-color: #146c43;
+    border-color: #13653f;
+}
+
+.btn-check:checked+.btn-custom-green:focus,
+.btn-check:active+.btn-custom-green:focus,
+.btn-:active:focus,
+.btn-custom-green.active:focus,
+.show>.btn-.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+}
+
+.btn-:disabled,
+.btn-.disabled {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+
+.box {
+    padding: 15%;
+    background-color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
